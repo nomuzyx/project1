@@ -1,7 +1,6 @@
 <!DOCKTYPE html>
 <html>
 <head>
-<h1 style="align:center;margin-left:100px;">Entry Form</h1>
 <style>
 table,tr,td
 {
@@ -16,22 +15,37 @@ border:1px solid cadetblue;
 line-height:300%;
 }
 
-div.header,div.footer
+div.header
 {
 padding:0.5em;
 color:black;
 background-color:cadetblue;
 clear:left;
+margin-left:210px;
+margin-top:0px;
 }
+
+div.footer
+{
+padding:0.5em;
+color:black;
+background-color:cadetblue;
+clear:left;
+margin-left:210px;
+margin-top:0px;
+}
+
 div.content
 {
 margin-left:100px;
 border-left:1px solid cadetblue;
 padding:1em;
+margin-top:0px;
 }
 </style>
 </head>
 <body style="background-color:cadetblue;">
+<div class="header"><h1>Entry Form</h1></div>
 <div class="toplevel">
 <div class="content">
 	<table>
@@ -160,10 +174,26 @@ padding:1em;
 <table>
 <tr>
 <td>
-<button type="button" style="width:40px" name="find" >Find</button>
+<button type="button" style="width:60px" name="find" >Find</button>
 </td>
 <td>
-<button type="button" style="width:40px" name="add" >Add</button>
+<button type="button" style="width:60px" name="add" >Add</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="modify" >Modify</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="save" >Save</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="Delete" >Delete</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="undo" >Undo</button>
+</td>
+
+<td>
+<button type="button" style="width:60px" name="exit" >Exit</button>
 </td>
 
 </tr>
